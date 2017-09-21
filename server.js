@@ -21,7 +21,7 @@ app.use(bodyParser.raw({type: "application/vnd.custom-type"}));
 
 
 // all routes - that's where we are getting our data from 
-require("./app/routing/html_routes.js")(app);
+require("./app/routing/api_routes.js")(app);
 
 // html routes
 require("./app/routing/html_routes.js")(app);
@@ -29,8 +29,6 @@ require("./app/routing/html_routes.js")(app);
 app.listen(PORT, function(){
     console.log("app listen on port: ", PORT);
 });
-
-
 
 
 
