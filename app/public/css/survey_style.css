@@ -17,3 +17,8 @@ body {
 	vertical-align: middle;
 	/*display: inline-block;*/
 }
+
+button{
+	padding:100px;
+	margin:10px;
+}

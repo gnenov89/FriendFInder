@@ -71,4 +71,4 @@ module.exports = function(app) {
 		// send the bestMatch back to the html page in response to the post
 		res.send(friends[bestMatch]);
 	});
-}
+};
