@@ -5,19 +5,45 @@ body {
 	font-family: 'Merriweather', serif;
 	background-color: 	#00BFFF;
 }
+nav.navbar.navbar-default {
+	border-bottom: 3px solid blue;
+}
 
+img.img-responsive{
+
+	border-radius: 25px;
+    border: 2px solid #73AD21;
+}
 h1{
 	font-family: 'Merriweather', serif;
 	
 }
 
-.jumbotron {
+div.jumbotron {
 	background-color: #87CEFA;
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+	
 
+}
+h1.text-center{
+	color: 	#7CFC00;
+	text-shadow: 2px 2px #FF0000;	
+}
+
+.p.text-center{
+	color: 	#7CFC00;
+	
+}
+a.btn.btn-primary.btn-lg.active{
+	color:#87CEFA;
+	border-radius: 25px;
+	border: 2px solid #73AD21;
 }
 
 .bottom_nav {
 	margin: auto;
+	
 	
 }
 
@@ -29,4 +55,8 @@ h1{
 .vertical_alignment p {
 	vertical-align: middle;
 	/*display: inline-block;*/
+}
+.navbar-fixed-bottom{
+	
+	border-top: 4px solid blue;
 }

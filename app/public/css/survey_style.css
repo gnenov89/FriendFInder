@@ -6,6 +6,9 @@ body {
 	background-color: 	#00BFFF;
 
 }
+nav.navbar.navbar-default {
+	border-bottom: 3px solid blue;
+}
 
 h2 {
 	font-family: 'Merriweather', serif;
@@ -30,4 +33,8 @@ button{
 	padding:100px;
 	margin:10px;
 	font-family: 'Merriweather', serif;
+}
+.navbar-fixed-bottom{
+	
+	border-top: 4px solid blue;
 }
