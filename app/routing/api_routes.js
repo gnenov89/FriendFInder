@@ -29,7 +29,7 @@ module.exports = function(app) {
 		var bestMatch = 0; // assume the first pet is the best match then adjust later
 
 		// cycle through the friends array and hit every pet stored in there
-		for (var i=0; i<friends.length; i++) {
+		for (i=0; i < friends.length; i++) {
 
 			// define a temp value that calculates difference between user selection and
 			// the current i-th animal friend being compared against and use the
