@@ -2,10 +2,18 @@
 
 body {
 	padding-bottom: 150px;
+	font-family: 'Merriweather', serif;
+	background-color: 	#00BFFF;
+
+}
+
+h2 {
+	font-family: 'Merriweather', serif;
 }
 
 .bottom_nav {
 	margin: auto;
+	font-family: 'Merriweather', serif;
 }
 
 .vertical_alignment {
@@ -15,10 +23,11 @@ body {
 
 .vertical_alignment p {
 	vertical-align: middle;
-	/*display: inline-block;*/
+	/* display: inline-block; */
 }
 
 button{
 	padding:100px;
 	margin:10px;
+	font-family: 'Merriweather', serif;
 }

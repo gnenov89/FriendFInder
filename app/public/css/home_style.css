@@ -2,13 +2,26 @@
 
 body {
 	padding-bottom: 150px;
+	font-family: 'Merriweather', serif;
+	background-color: 	#00BFFF;
+}
+
+h1{
+	font-family: 'Merriweather', serif;
+	
+}
+
+.jumbotron {
+	background-color: #87CEFA;
+
 }
 
 .bottom_nav {
 	margin: auto;
+	
 }
 
-.vertical_alignment {
+.vertical_alignment p{
 	height: 50px;
 	line-height: 50px;
 }
