@@ -10,7 +10,7 @@ var app = express();
 var PORT = process.env.PORT || 8080;
 
 // express middleware for serving static files 
-app.use(express.static(__dirname + "app/public"));
+app.use(express.static("app/public"));
 
 // set up body Parser
 app.use(bodyParser.json());

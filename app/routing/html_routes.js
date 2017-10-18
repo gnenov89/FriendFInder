@@ -6,11 +6,12 @@ module.exports = function(app) {
 
 	// the /survey route will take us to survey.html page
 	app.get("/survey", function(req, res) {
-		res.sendFile(path.join(__dirname + "/../public/survey.html"));
+		res.sendFile(path.join(__dirname, "../public/survey.html"));
 	});
 
 	// every other url path will take us to the home.html page
-	app.use(function(req, res) {
-		res.sendFile(path.join(__dirname + "/../public/home.html"));
+	app.get("*", function(req, res) {
+		console.log("here")
+		res.sendFile(path.join(__dirname, "../public/home.html"));
 	});
 };
